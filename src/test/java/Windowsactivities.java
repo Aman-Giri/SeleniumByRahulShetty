@@ -9,11 +9,9 @@ public class Windowsactivities {
         WebDriverManager.edgedriver().setup();
         WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.google.com/");
+        driver.get("https://www.google.com/"); 
         driver.navigate().to("https://rahulshettyacademy.com/locatorspractice/");
         driver.navigate().back();
         
-
-
     }
 }
